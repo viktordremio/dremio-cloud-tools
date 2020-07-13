@@ -76,7 +76,7 @@
         "X-Small (1 executor)": {
           "coordinatorVmSize": "Standard_D4_v3",
           "coordinatorCount": 0,
-          "executorVmSize": "Standard_D4_v3",
+          "executorVmSize": "Standard_E16s_v3",
           "executorCount": 1,
           "metadataDiskSize": 10
         },
