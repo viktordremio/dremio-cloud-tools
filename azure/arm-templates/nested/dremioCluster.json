@@ -206,7 +206,7 @@
     "upgradeMode": "Manual",
     "namingInfix": "[toLower(substring(concat(parameters('dremioClusterName'), uniqueString(resourceGroup().id)), 0, 9))]",
     "bePoolName": "[concat(variables('namingInfix'), 'bepool')]",
-    "baseURI": "https://raw.githubusercontent.com/dremio/dremio-cloud-tools/master/azure/arm-templates/scripts/",
+    "baseURI": "https://raw.githubusercontent.com/viktordremio/dremio-cloud-tools/master/azure/arm-templates/scripts/",
     "scriptFileName": "setupDremio.sh",
     "scriptURL": "[concat(variables('baseURI'), variables('scriptFileName'))]",
     "install": false
