@@ -182,8 +182,8 @@
     "dremioImage": {
       "publisher": "OpenLogic",
       "offer": "CentOS",
-      "sku": "8_1",
-      "version": "8.1.2020022700"
+      "sku": "7_8",
+      "version": "7.8.2020051900"
     },
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,
