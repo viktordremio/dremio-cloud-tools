@@ -1,7 +1,7 @@
 
 # Deploying Dremio to Azure
 
-You can try it out: [![Azure ARM Template](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/microsoft.template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdremio%2Fdremio-cloud-tools%2Fmaster%2Fazure%2Farm-templates%2Fazuredeploy.json)
+You can try it out: [![Azure ARM Template](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/microsoft.template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fviktordremio%2Fdremio-cloud-tools%2Fmaster%2Fazure%2Farm-templates%2Fazuredeploy.json)
 
 This deploys a Dremio cluster on Azure VMs. The deployment creates a master coordinator node and number of executor nodes depending on the size of the cluster chosen. The table below provides the machine type and number of executor nodes for the different sizes of Dremio clusters.
 
